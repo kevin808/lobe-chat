@@ -41,7 +41,7 @@ const Redirect = memo(() => {
     if (isUserHasConversation) {
       router.replace('/chat');
     } else {
-      router.replace('/welcome');
+      router.replace('/chat');
     }
   }, [isUserStateInit, isLoaded, isUserHasConversation, isOnboard, isLogin]);
 
